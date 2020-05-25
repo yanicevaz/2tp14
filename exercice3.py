@@ -20,7 +20,7 @@ class Window(QWidget):
         layout.addWidget(lineEdit)
         layout.addWidget(button)
 
-        progressBar.setValue(50)
+        progressBar.setValue(50) 
         self.setWindowIcon(icone)
         label.setAlignment(Qt.AlignCenter)
         self.setLayout(layout)

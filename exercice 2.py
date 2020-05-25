@@ -11,7 +11,7 @@ class Window(QWidget):
         self.label = QLabel("Laissez un commentaire")
         self.text = QTextEdit()
         self.validerbutton = QPushButton("Success")
-        self.annulerbutton= QPushButton("Cancel") 
+        self.annulerbutton= QPushButton("Cancel")
 
         self.layout.addWidget(self.label)
         self.layout.addWidget(self.text)

@@ -8,7 +8,7 @@ class Window(QWidget):
         self.layout = QVBoxLayout()
 
         self.label = QLabel("Ceci est un QLabel")
-        self.button = QPushButton("Ceci est un QPushButton") 
+        self.button = QPushButton("Ceci est un QPushButton")
 
         self.layout.addWidget(self.label)
         self.layout.addWidget(self.button)
